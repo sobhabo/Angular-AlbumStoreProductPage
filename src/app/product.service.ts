@@ -9,6 +9,8 @@ export class ProductService {
   getAlbum(id:number){
 
 
+    return this._http.get(_albumUrl);
+
 
 
   }
