@@ -6,5 +6,8 @@ export class ProductService {
   constructor(private _http: Http) {
        albumUrl='../assets/album.json';
   }
-  getAlbum(id)
+  getAlbum(id){
+
+    
+  }
 }
