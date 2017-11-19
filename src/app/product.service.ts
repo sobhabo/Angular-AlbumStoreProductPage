@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
-import{http,response} from '@angular/http';
+import {Http,Response} from '@angular/http';
 @Injectable()
 export class ProductService {
-
+albumUrl='../assets/album.json';
   constructor(private _http: Http) {
-       albumUrl='../assets/album.json';
-  }
-  getAlbum(id){
 
-    
+  }
+  getAlbum(id:number){
+
+
   }
 }
